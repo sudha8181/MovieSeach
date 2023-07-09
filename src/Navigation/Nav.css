@@ -1,0 +1,44 @@
+
+.logo img{
+    width: 100px;
+
+}
+.menu-item:hover{
+    border: 2px solid grey;
+    border-radius: 30px;
+}
+.menu-text{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input{
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: 1px solid grey;
+
+}
+
+.main{
+    
+    background-color: #000000db;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+ @media  screen and (max-width:480px) {
+    input{
+        height: 5vh;
+        width: 6rem;
+        border: none;
+    }
+    
+    .menu{
+       width: min-content;
+       padding: 0px 0px 0px 0px;
+    } 
+} 
+
+
